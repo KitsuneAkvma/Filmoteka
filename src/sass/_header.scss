@@ -1,7 +1,7 @@
 // <--- HEADER-HOME --->
 
 .header-home {
-  background-image: url(../images/home_mobile_opt.jpg);
+  background-image: url(../../public/images/home_mobile_opt.jpg);
   background-size: cover;
   padding-bottom: 43px;
 }
@@ -11,13 +11,13 @@
   screen and (min-resolution: 192dpi),
   screen and (min-resolution: 2dppx) {
   .header-home {
-    background-image: url(../images/home_mobile@2x_opt.jpg);
+    background-image: url(../../public/images/home_mobile@2x_opt.jpg);
   }
 }
 
 @media screen and (min-width: 768px) {
   .header-home {
-    background-image: url(../images/home_tablet_opt.jpg);
+    background-image: url(../../public/images/home_tablet_opt.jpg);
   }
 }
 
@@ -26,13 +26,13 @@
   screen and (min-resolution: 192dpi),
   screen and (min-resolution: 2dppx) {
   .header-home {
-    background-image: url(../images/home_tablet@2x_opt.jpg);
+    background-image: url(../../public/images/home_tablet@2x_opt.jpg);
   }
 }
 
 @media screen and (min-width: 1024px) {
   .header-home {
-    background-image: url(../images/home_desktop_opt.jpg);
+    background-image: url(../../public/images/home_desktop_opt.jpg);
   }
 }
 
@@ -41,7 +41,7 @@
   screen and (min-resolution: 192dpi),
   screen and (min-resolution: 2dppx) {
   .header-home {
-    background-image: url(../images/home_desktop@2x_opt.jpg);
+    background-image: url(../../public/images/home_desktop@2x_opt.jpg);
   }
 }
 
@@ -188,7 +188,7 @@
 // <--- HEADER-LIBRARY --->
 
 .header-library {
-  background-image: url(../images/library_mobile_opt.jpg);
+  background-image: url(../../public/images/library_mobile_opt.jpg);
   background-size: cover;
   padding-bottom: 65px;
 }
@@ -198,13 +198,13 @@
   screen and (min-resolution: 192dpi),
   screen and (min-resolution: 2dppx) {
   .header-library {
-    background-image: url(../images/library_mobile@2x_opt.jpg);
+    background-image: url(../../public/images/library_mobile@2x_opt.jpg);
   }
 }
 
 @media screen and (min-width: 768px) {
   .header-library {
-    background-image: url(../images/library_tablet_opt.jpg);
+    background-image: url(../../public/images/library_tablet_opt.jpg);
   }
 }
 
@@ -213,13 +213,13 @@
   screen and (min-resolution: 192dpi),
   screen and (min-resolution: 2dppx) {
   .header-library {
-    background-image: url(../images/library_tablet@2x_opt.jpg);
+    background-image: url(../../public/images/library_tablet@2x_opt.jpg);
   }
 }
 
 @media screen and (min-width: 1024px) {
   .header-library {
-    background-image: url(../images/library_desktop_opt.jpg);
+    background-image: url(../../public/images/library_desktop_opt.jpg);
   }
 }
 
@@ -228,7 +228,7 @@
   screen and (min-resolution: 192dpi),
   screen and (min-resolution: 2dppx) {
   .header-library {
-    background-image: url(../images/library_desktop@2x_opt.jpg);
+    background-image: url(../../public/images/library_desktop@2x_opt.jpg);
   }
 }
 

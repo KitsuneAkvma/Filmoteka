@@ -22,22 +22,17 @@
         &:hover{
             cursor: pointer;
             background-color: getColor('second-background');
-        }
-        // &:nth-child(){
-        //     background-color: $kolorB;
-        //     // background-color: getColor('button-color');
-        // }
-       
+        }  
     }
 }
 
 
 .left{
-        background-image: url("../images/left-arrow.svg");
+        background-image: url("../../public/svg/left-arrow.svg");
         
     }
 .right {
-             background-image: url("../images/right_arrow.svg");
+             background-image: url("../../public/svg/right_arrow.svg");
          }
          
 .selected{
