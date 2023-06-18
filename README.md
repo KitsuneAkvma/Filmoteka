@@ -1,5 +1,8 @@
 # Filmoteka
 
+
+<img src="./src/images/logo.svg" alt="app-icon" width="100" height="100">
+
 Filmoteka is a dynamic and user-friendly website designed to enhance your movie and series discovery experience. With its sleek design and intuitive interface, Filmoteka allows you to search for your favorite movies and series effortlessly.
 
 ## Key Features
@@ -14,6 +17,10 @@ Filmoteka is a dynamic and user-friendly website designed to enhance your movie 
 - HTML5
 - CSS3
 - SASS
+- javaScript
+- lodash
+- notiflix
+- parcel
 
 ## Team
 

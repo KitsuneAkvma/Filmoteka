@@ -1,4 +1,4 @@
-import logo_white from '../images/logo_white.png';
+import logo_white from '../images/logo.svg';
 
 const loader = `<div class="loader"><img
   class="loader__img"

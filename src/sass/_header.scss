@@ -72,22 +72,19 @@
 }
 
 .logo__text {
-  display: none;
+  display: block;
+  font-family: getFont('main-font');
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1.17;
+  color: getColor('basic-color');
+  margin-left: 0.5em;
 }
 
 @media screen and (min-width: 768px) {
   .logo__link {
     justify-content: space-between;
     gap: 10px;
-  }
-
-  .logo__text {
-    display: block;
-    font-family: getFont('main-font');
-    font-weight: 500;
-    font-size: 30px;
-    line-height: 1.17;
-    color: getColor('basic-color');
   }
 }
 

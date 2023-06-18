@@ -1,21 +1,21 @@
 {
-  "name": "mellowyellow",
-  "version": "2.0.0",
+  "name": "filmoteka",
+  "version": "1.0.0",
   "description": "",
-  "homepage": "https://sind83.github.io/MellowYellow",
+  "homepage": "https://kitsuneakvma.github.io/Filmoteka/",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /MellowYellow/"
+    "build": "parcel build src/*.html --public-url /filmoteka/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+    "url": "git+https://github.com/kitsuneakvma/Filmoteka.git"
   },
   "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
-  "license": "ISC",
+  "author": "Mateusz Martin <amateusz.r.martin@gmail.com>",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+    "url": "https://github.com/kitsuneakvma/Filmoteka/issues"
   },
   "dependencies": {
     "lodash.debounce": "^4.0.8",
