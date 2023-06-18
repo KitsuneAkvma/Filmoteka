@@ -2,7 +2,7 @@ import dotenv from 'dotenv';
 dotenv.config()
 
 
-export const API_KEY = process.env.THEMOVIEDB_KEY;
+export const API_KEY = "bf9c4d58b7779ca7f547438ec065a7d2";
 export const API_URL = `https://api.themoviedb.org/3/trending/`;
 export const GENRE_URL = `https://api.themoviedb.org/3/genre/movie/list?api_key=`;
 
