@@ -21,6 +21,7 @@ Filmoteka is a dynamic and user-friendly website designed to enhance your movie 
 - lodash
 - notiflix
 - parcel
+- theMovieDb
 
 ## Team
 
