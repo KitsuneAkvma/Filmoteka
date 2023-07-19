@@ -2,7 +2,7 @@ import logo_white from '/public/svg/logo.svg';
 import { paginationPlace } from './movie_search';
 
 const gallery = document.querySelector('.film-cards');
-const modalContent = document.querySelector('.modal');
+const modalContent = document.querySelector('.modal-content');
 
 const loader = `<div class="loader"><img
   class="loader__img"

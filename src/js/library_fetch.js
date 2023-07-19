@@ -5,11 +5,11 @@ import { paginationPlace } from './pagination';
 
 export async function fetchLibrary(ids) {
   let watchedMoviesURL = [];
-  // finding movie
+
   for (const movieId of ids) {
-    watchedMoviesURL.push(api_url+`${movieId.id}?api_key=${api_key}`);
+    watchedMoviesURL.push(api_url + `${movieId.id}?api_key=${api_key}`);
   }
-  console.log('Movies in this library (URL): ', watchedMoviesURL);
+
   const movies = [];
 
   for (const movie of watchedMoviesURL) {
@@ -22,7 +22,7 @@ export async function fetchLibrary(ids) {
     res['genre_ids'] = genresIds;
     movies.push(res);
   }
-  console.log('This library:', movies);
+
   renderMovies(0, movies, movies[0]['genres']);
   paginationPlace.innerHTML = '';
 }

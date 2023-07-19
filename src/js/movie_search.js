@@ -1,10 +1,11 @@
-import Notiflix, { Notify } from 'notiflix';
+/* eslint-disable no-unused-vars */
+import Notiflix from 'notiflix';
+import debounce from 'lodash.debounce'
 
-const debounce = require('lodash.debounce');
-import { renderMovies, renderModalMovie } from './cards_rendering.js';
-import { pagination, clearFocus, selectBtn, loadMainPage } from './pagination';
+import { renderMovies,  } from './cards_rendering.js';
+import { pagination, clearFocus, selectBtn,  } from './pagination';
 
-import { API_KEY, GENRE_URL, API_URL } from './main_fetch.js';
+import { API_KEY, GENRE_URL,  } from './main_fetch.js';
 import { displayGalleryLoader, hideGalleryLoader } from './loader_spinner.js';
 
 const SEARCH_URL = `https://api.themoviedb.org/3/search/movie?api_key=`;
@@ -69,9 +70,7 @@ export const searchMovie = (
 
       if (totalResults === 0) {
         hideGalleryLoader();
-        // Notiflix.Notify.failure(
-        //   'Sorry, there are no films matching your search query. Please try again.'
-        // );
+   
         gallery.innerHTML = `<div class="result-not-found"><span class="result-not-found__title">"${input.value}"</span>
         <p class = "result-not-found__text"> UPS... We don't have this title  ...try something different</p>
         <a class = "result-not-found__link" href = "index.html"> <div class = "result-not-found__button">GO BACK TO HOMEPAGE</div></a></div>`;
@@ -146,7 +145,7 @@ const readMovie = () => {
 };
 
 Notiflix.Notify.init({
-  position: 'right-top', // 'right-top' - 'right-bottom' - 'left-top' - 'left-bottom' - 'center-top' - 'center-bottom' - 'center-center'
+  position: 'right-top', 
   timeout: 4000,
   showOnlyTheLastOne: true,
 

@@ -16,7 +16,7 @@ $selected-button:1;
   @return map-get($colors, $key);
 }
 
-// for example background-color: getColor("main-color");
+
 
 $fonts: (
   'main-font': "Roboto"
