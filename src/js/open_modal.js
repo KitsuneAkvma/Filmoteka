@@ -10,7 +10,7 @@ const MOVIE_URL = `https://api.themoviedb.org/3/movie/`;
 const refs = {
   body: document.querySelector('body'),
   backdropModal: document.querySelector('.backdrop'),
-  modal: document.querySelector('.modal-content'),
+  modal: document.querySelector('.modal'),
 };
 
 refs.body.addEventListener('click', openModal);
